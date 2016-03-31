@@ -1,13 +1,22 @@
 # What you added to Udacitask 2.0
 # -------------------------------------------------------
 1. What is the gem of your choice and how did you use it?
+  Artii for ascii arts, colorize for many applications like color sorting the items
+  Chronic for parsing text to date
 2. Describe the 2 features you added to the project.
-  a) Feature 1...
-  b) Feature 2...
+  Described below
 
 # REFLECTIONS
 # -------------------------------------------------------
 1. How long did you spend working on this project?
+  2 hours
 2. What was the most rewarding challenge you conquered?
+  Understanding the code you haven't done.
 3. What two additional features did you build? Why?
+  1. statistics of the list (list.stats)
+  2. Color sorting of the according to their type
+  3. deleting multiple item at once.
+  for making the code more user friendly
 4. Where do you still have room to grow?
+  Error handling is a big deal that isn't covered here much.
+  i want to learn that.
