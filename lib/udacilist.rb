@@ -22,13 +22,16 @@ class UdaciList
     @items.push LinkItem.new(description, options) if type == "link"
   end
   def delete(*indice)
+    indice.sort!.reverse!
     indice.each do |index|
-      if index>@items.length
+      if index-1>@items.length
         raise UdaciListErrors::IndexExceedsListSizeError ," Out of Range"
       end
       @items.delete_at(index - 1)
 
     end
+
+
 
 
   end

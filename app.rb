@@ -45,5 +45,5 @@ new_list.all
 # ------------------------
 new_list.filter("event")
 new_list.stats
-new_list.delete(1,2,3)
+new_list.delete(1,8)
 new_list.all
